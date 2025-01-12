@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tint Solutions | Window Tinting Services</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark background */
+            color: #ffd700; /* Yellow text for readability */
+            line-height: 1.6;
+        }
+
+        header {
+            background: #1f1f1f;
+            color: #ffd700; /* Yellow text */
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 50%; /* Make the logo responsive */
+            max-width: 200px; /* Set max width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10%; /* Round logo */
+            background-color: #1f1f1f; /* Match the dark background */
+            padding: 10px;
+        }
+
+        nav {
+            background: #333333;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #ffd700; /* Yellow text for links */
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #ffa500; /* Orange for hover */
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px auto;
+            max-width: 1200px;
+        }
+
+        h1, h2, h3 {
+            color: #ffa500; /* Orange headers for emphasis */
+        }
+
+        .services, .testimonials {
+            background: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .services ul, .testimonials ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .services li, .testimonials li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #1f1f1f;
+            color: #ffd700; /* Yellow text for footer */
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #ffa500; /* Orange links in footer */
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        /* Social Media Bar */
+        .social-media {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .social-media a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #ffd700; /* Yellow social media icons */
+            font-size: 20px;
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            color: #ffa500; /* Orange on hover */
+            transform: scale(1.1);
+        }
+
+        /* Buttons and Links */
+        button, a.button {
+            background: #ffa500; /* Orange background */
+            color: #121212; /* Dark text for contrast */
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover, a.button:hover {
+            background: #e69500; /* Slightly darker orange on hover */
+        }
+
+        /* Media query for smaller screens (e.g., mobile) */
+        @media (max-width: 600px) {
+            header img {
+                width: 60%; /* Slightly larger logo on mobile */
+                max-width: 180px; /* Adjust max-width for better scaling */
+            }
+
+            nav {
+                flex-direction: column;
+                padding: 15px 0;
+            }
+
+            nav a {
+                margin: 10px 0; /* Stack links vertically */
+                font-size: 14px;
+            }
+
+            section {
+                padding: 15px; /* Adjust padding for smaller screens */
+            }
+
+            footer {
+                font-size: 14px; /* Adjust font size for footer text on mobile */
+            }
+
+            .services, .testimonials {
+                padding: 15px;
+            }
+
+            .gallery img {
+                max-width: 100%; /* Make gallery images responsive */
+            }
+        }
+          
+    </style>
+</head>
+<body>
+    <header>
+        <img src="TSlogo.png" alt="Tint Solutions Logo">
+        <h1>Tint Solutions</h1>
+        <p>Premium Window Tinting for Your Car, Home, and Office</p>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services">
+            <h3>Automotive Window Tinting</h3>
+            <p>Heat reduction, UV protection, enhanced privacy, and sleek aesthetics.</p>
+            <p><strong>Pricing:</strong> Starting at $150 for sedans and $200 for SUVs.</p>
+            <h3>Residential Window Tinting</h3>
+            <p>Lower energy bills, reduced glare, and increased privacy.</p>
+            <p><strong>Pricing:</strong> $6–$12 per square foot.</p>
+            <h3>Commercial Window Tinting</h3>
+            <p>Enhance business spaces with reduced heat, glare, and increased security.</p>
+            <p><strong>Pricing:</strong> $7–$15 per square foot.</p>
+            <h3>Specialty Film Services</h3>
+            <ul>
+                <li>Decorative films</li>
+                <li>Paint protection film</li>
+                <li>Headlight and tail light tinting</li>
+                <li>Vinyl wraps and decals</li>
+            </ul>
+        </div>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Tint Solutions, we pride ourselves on delivering high-quality window tinting tailored to your needs. Our mission is to enhance comfort, security, and energy efficiency for vehicles, homes, and businesses.</p>
+    </section>
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="example-car.jpg" alt="Car with tinted windows">
+            <img src="example-home.jpg" alt="House with tinted windows">
+            <img src="example-office.jpg" alt="Office with tinted windows">
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonials">
+            <p><strong>Alex J.:</strong> "They tinted my car, and I couldn't be happier! The service was fast, and the results are fantastic."</p>
+            <p><strong>Sarah T.:</strong> "I had my home windows tinted, and it made such a difference in keeping the house cool. Highly recommend them."</p>
+            <p><strong>Michael R.:</strong> "The team was professional and efficient. They installed decorative films in our office, and it looks amazing."</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong> [Your Business Address]</p>
+        <p><strong>Phone:</strong> [Your Phone Number]</p>
+        <p><strong>Email:</strong> [Your Email Address]</p>
+        <p><strong>Business Hours:</strong> Monday–Saturday, 9 AM–6 PM</p>
+        <p><strong>Get a Free Quote:</strong> <a href="#" class="button">Contact Us</a></p>
+    </section>
+    <div class="social-media">
+        <h3>Follow Us</h3>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+    <footer>
+        <p>&copy; 2025 Tint Solutions. All rights reserved.</p>
+    </footer>
+</body>
+</html>
